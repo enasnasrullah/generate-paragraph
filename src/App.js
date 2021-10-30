@@ -11,7 +11,7 @@ const App = () => {
     if (count <= 0) {
       amount = 1;
     }
-    if (count < 15) {
+    if (count > 15) {
       amount = 14;
     }
 
